@@ -31,7 +31,7 @@ public class GameManagerScript : MonoBehaviour
         }
         else
         {
-            Cursor.visible = false;
+            Cursor.visible = true;
             Cursor.lockState = CursorLockMode.Confined;
         }
         if (youWinUI.activeInHierarchy)
@@ -41,7 +41,7 @@ public class GameManagerScript : MonoBehaviour
         }
         else
         {
-            Cursor.visible = false;
+            Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
     }
